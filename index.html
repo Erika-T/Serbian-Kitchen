@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="description" content="Authentic Serbian/Croatian/Bosnian Food Restaurant">
+        <meta name="keywords" content="Serbian, Croatian, Bosnian, Restaurant">
+        <meta name="author" content="Erika Tunjic">
+        <title>Serbian Kitchen</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" media="screen and (max-width:1715px)" href="responsive.css">
+        <link rel="icon" href="">
+        <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <div class="pagetop">
+            <img src="assets/arrow.png">
+        </div>
+
+        <!-- First View --------------------------------------------------------------->
+        <section id="fv">
+            <!-- Main BG img -->
+            <div class="main_bg">
+                <div class="main_img" style="background-image:url('assets/main_bg1.jpg')"></div>
+                <div class="main_img" style="background-image:url('assets/main_bg2.jpg')"></div>
+                <div class="main_img" style="background-image:url('assets/main_bg3.jpg')"></div>
+                <div class="main_img" style="background-image:url('assets/main_bg4.jpg')"></div>
+                <div class="main_img" style="background-image:url('assets/main_bg5.jpg')"></div>
+                <div class="main_img" style="background-image:url('assets/main_bg6.jpg')"></div>
+            </div>
+            
+            <img src="assets/frame_wht.png" class="frame f1">
+            <img src="assets/frame_wht.png" class="frame f2">
+            <img src="assets/frame_wht.png" class="frame f3">
+            <img src="assets/frame_wht.png" class="frame f4">
+            <img src="assets/frame_menu_wht.png" class="frame_title">
+            <h1 id="title">Serbian Kitchen</h1>
+        </section>
+            
+        <!-- Global Nav --------------------------------------------------------------->
+        <nav id="gnav">
+            <div class="container">
+                <h2 class="nav_logo">Serbian Kitchen</h2>
+                <ul>
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hamburger -->
+        <a class="hamburger">
+            <span class="hamburger_line"></span>
+            <span class="hamburger_line"></span>
+            <span class="hamburger_line"></span>
+        </a>
+
+        <!-- Hamburger Menu -->
+        <nav class="hmenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- About --------------------------------------------------------------->
+        <section id="about">
+            <div class="container">
+                <h2 class="sec_title effect-fade">Welcome Home.</h2>
+                <img src="assets/uzivajte.png" class="uzivajte effect-fade">
+                <img src="assets/ziveli.png" class="ziveli effect-fade">
+                <img src="assets/fantasticno.png" class="fantasticno effect-fade">
+                <img src="assets/grandma.jpg" class="grandma effect-fade">
+                <img src="assets/family-dinner.jpg" class="dinner effect-fade">
+                <div class="effect-fade">
+                    <p>Via Fratelli, located at 151 Waverley Road, Malvern East, serves traditional 
+                        Italian cuisine with the aim of providing great tasting and fresh Italian 
+                        food with the highest possible quality of service & hospitality.</p>
+                        <br>
+                    <p>bia Fratelli, located at 151 Waverley Road, Malvern East, serves traditional 
+                        Italian cuisine with the aim of providing great tasting and fresh Italian 
+                        food with the highest possible quality of service & hospitality.</p>
+                        <br>
+                    <p>bia Fratelli, located at 151 Waverley Road, Malvern East, serves traditional 
+                        Italian cuisine with the aim of providing great tasting and fresh Italian 
+                        food with the highest possible quality of service & hospitality.</p>
+                        <br>
+                    <p>bia Fratelli, located at 151 Waverley Road, Malvern East, serves traditional 
+                        Italian cuisine with the aim of providing great tasting and fresh Italian 
+                        food with the highest possible quality of service & hospitality.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu --------------------------------------------------------------->
+        <section id="menu">
+            <div class="container">
+                <img src="assets/line.png" class="line">
+                <h2 class="sec_title effect-fade">Our Menu</h2>
+                
+                <div class="slider effect-fade">
+
+                    <hr>
+
+                    <input type="radio" name="switch" id="slide1" checked/>
+                    <label for="slide1" class="menu_label">Appetizer</label>
+                    <div class="menu_list">
+                        <div class="inner-box">
+                            <div class="menu_item">
+                                <h3>Meze</h3>
+                                <p>Cheese & Salami Platter</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Kifle</h3>
+                                <p>Crescent Rolls</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Ruska Salata</h3>
+                                <p>Russian Salad</p>
+                            </div>
+                        </div>
+
+                        <div class="inner-box">
+                            <div class="menu_item">
+                                <h3>Uštipke</h3>
+                                <p>Serbian-style Savory Donuts</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>French Fries</h3>
+                                <p>Appetizer in English</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Palenta</h3>
+                                <p>Porridge</p>
+                            </div class="menu_item">
+                        </div>
+                    </div>
+
+                    <input type="radio" name="switch" id="slide2"/>
+                    <label for="slide2" class="menu_label">Main</label>
+                    <div class="menu_list">
+                        <div class="inner-box">
+                            <div class="menu_item">
+                                <h3>Sarma</h3>
+                                <p>Stuffed Cabbage Rolls</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Punjene Paprike</h3>
+                                <p>Stuffed Capsicum</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Djuveč</h3>
+                                <p>Baked Vege & Meat with Rice</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Burek Pita</h3>
+                                <p>Pie(Meat / Cheese&Spinach / Potato)</p>
+                            </div class="menu_item">  
+                        </div>
+
+                        <div class="inner-box">
+                            <div class="menu_item">
+                                <h3>Gulaš</h3>
+                                <p>Serbian Goulash served with Rice / Pasta / Mashed Potato</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Čorva</h3>
+                                <p>Stew(Beef & Vege / Beef & Beans / Rice & Vege)</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Sataraš</h3>
+                                <p>Fried Vege, Saur Cream with Bread</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Roast Pork</h3>
+                                <p>The Main Specialty at Almost Any Celebration</p>
+                            </div>  
+                        </div>
+                    </div>
+
+                    <input type="radio" name="switch" id="slide3"/>
+                    <label for="slide3" class="menu_label">Dessert</label>
+                    <div class="menu_list">
+                        <div class="inner-box">
+                            <div class="menu_item">
+                                <h3>Palačinke</h3>
+                                <p>Crape with Jam / Nutella</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Uštipke</h3>
+                                <p>Serbian-style Sweet Donuts</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Krofne</h3>
+                                <p>Donuts</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Pudding(Chocolate / Berries)</h3>
+                                <!-- <p>Dessert in English</p> -->
+                            </div class="menu_item">  
+                        </div>
+
+                        <div class="inner-box">
+                            <div class="menu_item">
+                                <h3>Cherry Cake</h3>
+                                <p>Old-fashioned Cake with Fresh Cherry</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Ormašice</h3>
+                                <p>Sweet Walnut Biscuits</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Suhi Kolač</h3>
+                                <p>Biscuits</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <input type="radio" name="switch" id="slide4"/>
+                    <label for="slide4" class="menu_label">Drinks</label>
+                    <div class="menu_list">
+                        <div class="inner-box">
+                            <div class="menu_item">
+                                <h3>Lemunada</h3>
+                                <p>Lemonade</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Breskva I Jabuka Sok</h3>
+                                <p>Peach & Apple Juice</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Jabuka I Grožđe Sok</h3>
+                                <p>Apple & Grape Juice</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Kruška I Jabka Sok</h3>
+                                <p>Pear & Apple Juice</p>
+                            </div class="menu_item">  
+                        </div>
+
+                        <div class="inner-box">
+                            <div class="menu_item">
+                                <h3>Rakia</h3>
+                                <p>Selection of Serbian Fruit Brandy</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Crno Vino</h3>
+                                <p>Red Wine</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Belo Vino</h3>
+                                <p>White Wine</p>
+                            </div>
+                            <div class="menu_item">
+                                <h3>Pivo</h3>
+                                <p>Beer</p>
+                            </div>  
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact --------------------------------------------------------------->
+        <section id="contact">
+
+            <img src="assets/line.png" class="line">
+            <h2 class="sec_title effect-fade">Make a Reservation</h2>
+            
+            <div class="container effect-fade">
+                <img src="assets/frame_brw.png" class="contact_frame">
+                <img src="assets/frame_brw.png" class="contact_frame">
+                <img src="assets/frame_brw.png" class="contact_frame">
+                <img src="assets/frame_brw.png" class="contact_frame">
+
+                <form action="http://formspree.io/ovagisteria@gmail.com" method="POST">
+                    <h3>Book a table online</h3>
+                    <input type="text" placeholder="Name" id="ip_name" name="name" required>
+                    <div class="select-wrap">
+                        <input type="date" placeholder="Date" max="9999-12-31" id="ip_date" name="date" required>
+                    </div>
+                    <div class="select-wrap">
+                        <select name="time" id="ip_time" name="time" required>
+                            <option value="0" hidden selected>Time</option>
+                            <option value="5:00pm">5:00pm</option>
+                            <option value="5:30pm">5:30pm</option>
+                            <option value="6:00pm">6:00pm</option>
+                            <option value="6:30pm">6:30pm</option>
+                            <option value="7:00pm">7:00pm</option>
+                            <option value="7:30pm">7:30pm</option>
+                            <option value="8:00pm">8:00pm</option>
+                            <option value="8:30pm">8:30pm</option>
+                        </select>
+                    </div>
+                    <div class="select-wrap">
+                        <select name="person" id="ip_person" name="person" required>
+                            <option value="0" hidden selected>Person</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10+</option>
+                        </select>
+                    </div>
+                    <input type="email" placeholder="Email" id="ip_email" name="email" required>
+                    <input type="tel" placeholder="Contact Number" id="ip_tel" name="tel" required>
+                    <textarea type="text" placeholder="Message" id="ip_msg" name="message" rows="7"></textarea>
+                    <button type="submit">Reserve Your Table Now!</button>
+                </form>
+
+            </div>
+        </section>
+
+        <!-- Info --------------------------------------------------------------->
+        <section id="info">
+            <img src="assets/line.png" class="line">
+            
+            <h2 class="effect-fade">Looking Forward to Seeing You</h2>
+
+            <div class="container effect-fade">
+
+                <div class="info">
+                    <h3>Servian Kitchen</h3>
+                    <p class="p1">0400 000 000</p>
+                    <p>Sunnybank Hills, QLD Australia</p>
+                    <p>Mon-Thu: 5pm - 9pm</p>
+                    <p>Fri & Sat: 5pm - 11pm</p>
+                    <p>Sun: 12am - 9pm</p>
+                </div>
+
+                <div class="map">
+                    <iframe src="http://maps.google.co.jp/maps?&output=embed&q=-27.592068,153.052729"></iframe>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer --------------------------------------------------------------->
+        <footer>
+            <div class="container">
+                <p class="footer_logo">Serbian Kitchen</p>
+            </div>
+        </footer>
+
+        <!-- Script --------------------------------------------------------------->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </body>
